@@ -1,0 +1,728 @@
+			
+body {
+	font-family:'Sanchez', Arial, Helvetica, sans-serif;
+	font-size:.875em; /* 14px */
+	color:#d0b288;
+	background:black;
+}
+body.bg_productos {
+	background:#000 url(../images/fondos/productos.jpg) center top no-repeat;
+}
+a {
+	text-decoration:none;
+	color:#f7eebc;
+	transition:all ease-out .3s;
+}
+a:hover {
+	color:#d0b288;
+}
+.clear {
+	clear:both;
+}
+
+
+/* HEADER				///////////////////////////////////////////////////*/
+header {
+	width:1040px;
+	margin:10px auto;
+	text-align:center;
+}
+
+header.movil {
+	display:none;
+}
+header nav {
+	overflow:hidden;
+	margin-bottom:6px;
+	font-size:1.1em;
+	text-transform:uppercase;
+	margin-left:30px;
+}
+header nav li {
+	float:left;
+	
+}
+header nav li a {
+	display:inline-black;
+    margin:0 9px 4px 9px;
+    padding:8px 5px 0 5px;
+    transition:none;
+}
+header nav li a:hover,
+header nav li a.activo {
+	color:#f7eebc;
+	background:#ec2227;
+}
+header nav li a span {
+	width:7px;
+	height:31px;
+	float:left;
+	margin:-8px 0 0 -12px;
+	background:url(../images/menu_izq.png) 0 0 no-repeat;
+}
+header nav li a span.menu {
+	float:right;
+	margin-right:-12px;
+	background:url(../images/menu_der.png) 0 0 no-repeat;
+}
+header nav li a:hover span,
+header nav li a.activo span {
+	background-position:0 -31px;
+}
+header hr {
+	width:790px;
+	margin:0 auto 3px auto;
+	border:none;
+	border-bottom:1px dashed #f2ecd3;
+}
+header hr.larga {
+	width:815px;
+}
+header figure {
+	margin-top:15px;
+}
+header .linea {
+	position:absolute;
+	margin:-70px 0 0 200px;
+}
+
+
+/* INICIO				///////////////////////////////////////////////////*/
+.inicio {
+	margin:25px 0 60px 0;
+}
+.inicio figure {
+	position:absolute;
+	left:-520px;
+	width:1040px;
+	margin:-30px 0 0 50%;
+	z-index:3;
+}
+
+
+/* HISTORIA				///////////////////////////////////////////////////*/
+.historia,
+.productos,
+.populares,
+.populares_detalles,
+.familias,
+.familias_cadauna,
+.familias_detalles,
+.comprar,
+.contacto {
+	width:1040px;
+	margin:0 auto;
+}
+.historia h1,
+.populares h1,
+.populares_detalles h1,
+.familias h1,
+.familias_cadauna h1,
+.familias_detalles article h1,
+.comprar h1,
+.vender h1,
+.contacto h1 {
+	height:35px;
+	margin:15px 0 20px 0;
+	padding-top:7px;
+	font-size:2em;
+	text-align:center;
+	text-transform:uppercase;
+	color:#311b15;
+	background:url(../images/cintillo.png) top center no-repeat;
+}
+.historia article {
+	overflow:hidden;
+	margin-top:30px;
+}
+.historia article aside {
+	width:475px;
+	float:left;
+	margin-left:20px;
+	font-family:'Bellota_Bold', Arial, Helvetica, sans-serif;
+	line-height:1.25em;
+}
+.historia article aside h2,
+.populares_detalles article h2,
+.comprar article h2,
+.vender article h2,
+.contacto article aside h2,
+.contacto article form label {
+	margin-bottom:20px;
+	font-family:'Sanchez', Arial, Helvetica, sans-serif;
+	font-size:1.42em;
+	text-transform:uppercase;
+	color:#28bfad;
+}
+.historia article figure {
+	float:right;
+}
+.historia article.reves aside {
+	float:right;
+	margin-right:20px;
+}
+.historia article.reves figure {
+	float:left;
+	margin-left:-20px;
+}
+.historia figure {
+	text-align:center;
+}
+.historia .slogan,
+.historia .slogan div {
+	overflow:hidden;
+	text-align:center;
+}
+.historia .slogan figure {
+	float:none;
+}
+.historia .slogan div {
+	width:420px;
+	margin:15px auto 35px auto;
+	font-size:1.1em;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#f7eebc;
+}
+.historia .slogan div img,
+.historia .slogan div p {
+	float:left;
+}
+
+
+/* PRODUCTOS			///////////////////////////////////////////////////*/
+.productos,
+.populares_detalles {
+	margin-bottom:70px;
+}
+.productos .prod_populares,
+.productos .prod_categorias {
+	position:absolute;
+	margin:100px 0 0 50px;
+	font-size:2.25em;
+	text-transform:uppercase;
+	text-align:center;
+	z-index:3;
+}
+.productos .prod_populares a,
+.productos .prod_categorias a {
+	width:267px;
+	height:186px;
+	display:block;
+	padding-top:25px;
+}
+.productos .prod_populares a:hover,
+.productos .prod_categorias a:hover {
+	background:url(../images/circulo_productos.png) no-repeat;
+}
+.productos .prod_populares figure {
+	margin-bottom:5px;
+}
+.productos .prod_populares .mas,
+.productos .prod_populares .conoce,
+.productos .prod_categorias .todas,
+.productos .prod_categorias .todos {
+	font-size:.7em;
+}
+.productos .prod_populares .conoce,
+.productos .prod_categorias .todos {
+	margin-top:8px;
+	font-family:'Gloucester', Arial, Helvetica, sans-serif;
+	text-transform:none;
+	color:#e7c60c;
+}
+.productos .prod_categorias {
+	right:0;
+	margin-right:10px;
+	margin-left:0;
+}
+.productos .prod_categorias a {
+	height:151px;
+	padding-top:60px;
+}
+.productos .prod_categorias p img {
+	margin-top:-5px;
+	vertical-align:middle;
+}
+
+
+/* POPULARES			///////////////////////////////////////////////////*/
+.populares,
+.familias,
+.familias_cadauna {
+	text-align:center;
+}
+.populares .sello,
+.familias .sello {
+	position:absolute;
+	margin:-50px 0 0 150px;
+}
+.populares p,
+.familias p,
+.familias_cadauna p {
+	width:600px;
+	margin:0 auto;
+}
+.populares .decorado,
+.familias .decorado,
+.familias_cadauna .decorado {
+	margin:20px 0 30px 0;
+}
+.populares ul,
+.familias ul,
+.familias_cadauna ul {
+	overflow:hidden;
+}
+.populares li,
+.familias li,
+.familias_cadauna li {
+	width:270px;
+	float:left;
+	/*margin:0 0 50px 57px;*/
+	margin:0 30px 50px 38px;
+	font-family:'Bellota_Bold', Arial, Helvetica, sans-serif;
+	font-size:1.15em;
+}
+.populares li img,
+.familias li img,
+.familias_cadauna li img {
+	margin-bottom:15px;
+	border:8px solid #f2e9b9;
+	box-shadow:0 5px 5px rgba(0,0,0,.75);
+}
+
+
+/* POPULARES DETALLES	/////////////////////////////////////////////////*/
+.populares_detalles .info {
+	position:absolute;
+	margin-left:30px;
+	text-align:left;
+	line-height:1.25em;
+	z-index:-1;
+}
+
+.populares_detalles .info a {
+	text-transform:uppercase;
+	color:#f88600;
+}
+
+.populares_detalles .info h2 {
+	margin-top:5px;
+}
+
+.populares_detalles .info p {
+	width:460px;
+}
+
+
+/* FAMILIAS				//////////////////////////////////////////////////*/
+.familias .sello {
+	margin-left:100px;
+}
+.familias h1 {
+	height:46px;
+	padding-top:18px;
+	background:url(../images/cintillo_grande.png) top center no-repeat;
+}
+.familias h1 img {
+	margin-top:-6px;
+	vertical-align:middle;
+}
+.familias .centro {
+	position:absolute;
+	width:277px;
+	height:245px;
+	margin-top:-55px;
+	padding:120px 25px 0 0;
+	font-family:'Amatic_SC', Arial, Helvetica, sans-serif;
+	font-size:3.21em;
+	background:url(../images/circulo_familias.png) no-repeat;
+}
+.familias .centro .nuestra {
+	font-family:'Gloucester', Arial, Helvetica, sans-serif;
+	font-size:.48em;
+	text-transform:none;
+	color:#e7c60c;
+}
+.familias .centro p {
+	width:auto;
+}
+
+
+/* FAMILIAS CADA UNA	///////////////////////////////////////////////////*/
+.familias_cadauna .familias,
+.familias_detalles .familias {
+	width:790px;
+	float:none;
+	margin:30px auto 100px auto;
+	font-family:'Bellota_Bold', Arial, Helvetica, sans-serif;
+	font-size:1.15em;
+	line-height:2em;
+}
+.familias_cadauna .familias h3,
+.familias_detalles .familias h3 {
+	margin-bottom:5px;
+	font-size:1.3em;
+	text-transform:uppercase;
+	color:#0ab5ce;
+}
+.familias_cadauna .familias h3 img,
+.familias_detalles .familias h3 img {
+	margin:0 40px;
+}
+.familias_cadauna .familias p,
+.familias_detalles .familias p {
+	width:auto;
+}
+.familias_cadauna .familias p img,
+.familias_detalles .familias p img,
+.comprar .estados p img {
+	margin:-2px 2px 0 2px;
+	vertical-align:middle;
+}
+
+
+/* FAMILIAS DETALLES	///////////////////////////////////////////////////*/
+.familias_detalles {
+	margin:60px auto 100px auto;
+}
+.familias_detalles .producto {
+	float:left;
+	margin-left:65px;
+}
+.familias_detalles .producto .foto {
+	box-shadow:0 4px 5px rgba(0,0,0,.75);
+}
+.familias_detalles .producto .sombra {
+	margin-top:-2px;
+}
+.familias_detalles article {
+	width:380px;
+	float:right;
+	margin-right:65px;
+}
+.familias_detalles article .sello {
+	position:absolute;
+	margin:-103px 0 0 230px;
+}
+.familias_detalles article h2 {
+	width:235px;
+	text-transform:uppercase;
+}
+.familias_detalles article h1 {
+	height:45px;
+	margin:10px 0 20px 0;
+	padding:18px 0 0 20px;
+	font-size:2em;
+	text-align:left;
+	text-transform:uppercase;
+	color:#311b15;
+	background:url(../images/cintillo_chico.png) top center no-repeat;
+}
+.familias_detalles article h1.renglones {
+	height:51px;
+	padding-top:12px;
+	font-size:1.5em;
+}
+
+.familias_detalles article h1 p.renglones {
+	margin-top:6px;
+	font-size:.65em;
+}	
+
+.familias_detalles article h1 p.renglonesB {
+	margin-top:3px;
+	font-size:.85em;		
+} 
+
+.familias_detalles article figure {
+	margin-bottom:15px;
+	text-align:center;
+}
+.familias_detalles .linea,
+.familias_detalles .familias {
+	text-align:center;
+}
+.familias_detalles .familias {
+	margin:85px auto 0 auto;
+}
+
+
+/* DONDE COMPRAR	///////////////////////////////////////////////////*/
+.comprar article {
+	overflow:hidden;
+	text-align:center;
+}
+.comprar article h2 {
+	margin-bottom:10px;
+	font-size:1.9em;
+	padding-top:5px;
+}
+.comprar .estados {
+	margin-bottom:20px;
+	font-size:1.21em;
+}
+.comprar .estados a {
+	cursor:pointer;
+}
+.comprar .estados p {
+	margin:15px 0;
+}
+.comprar .estados p img {
+	margin-right:15px;
+	margin-left:15px;
+}
+.comprar .estado {
+	margin-bottom:60px;
+}
+.comprar .estado .info,
+.comprar .estado .infouno {
+	float:left;
+	margin-left:40px;
+	text-align:left;
+	line-height:1.25em;
+}
+.comprar .estado .infouno {
+	margin-left:190px;
+}
+.comprar .estado .direccion {
+	margin-top:20px;
+}
+.comprar .estado .mapa,
+.comprar .estado .mapauno {
+	float:right;
+	margin-right:30px;
+}
+.comprar .estado .mapauno {
+	margin-right:140px;
+}
+.comprar #chi,
+.comprar #dur,
+.comprar #edo,
+.comprar #gto,
+.comprar #hgo,
+.comprar #jal,
+.comprar #df,
+.comprar #mic,
+.comprar #nay,
+.comprar #qto,
+.comprar #slp,
+.comprar #zac,
+.comprar #can,
+.comprar #pue,
+.comprar #que {
+	display:none;
+}
+
+
+/* QUIERES VENDER 	///////////////////////////////////////////////////*/
+.vender {
+	width:830px;
+	margin:0 auto;
+}
+.vender p,
+.vender li {
+	line-height:1.25em;
+}
+.vender article {
+	overflow:hidden;
+}
+.vender article h2 {
+	margin-bottom:10px;
+	text-align:center;
+}
+.vender article h2 img {
+	vertical-align:middle;
+}
+.vender article h3 {
+	font-size:1.1em;
+	text-transform:uppercase;
+	line-height:1.25em;
+	color:#e49c25;
+}
+.vender article h4 {
+	margin-bottom:20px;
+	color:#00bfd6;
+}
+.vender .franquicia {
+	margin:50px 0 30px 0;
+	text-align:center;
+}
+.vender .franquicia figure {
+	float:left;
+}
+.vender .franquicia aside {
+	width:340px;
+	float:right;
+	margin-top:50px;
+}
+.vender .franquicia aside figure {
+	width:100%;
+	float:none;
+	display:block;
+	margin-bottom:15px;
+	text-align:center;
+}
+.vender .nuestra {
+	text-align:center;
+}
+.vender .nuestra figure {
+	margin:10px 0 25px 0;
+}
+.vender .nuestra ul {
+	width:325px;
+	float:left;
+	margin-left:40px;
+	text-align:left;
+}
+.vender .nuestra ul + ul {
+	float:right;
+}
+.vender .tienda {
+	width:650px;
+	margin:70px auto 60px auto;
+	text-align:center;
+}
+.vender .tienda ul {
+	display:inline-block;
+	margin:5px 0 0 45px;
+	text-align:left;
+}
+.vender .tienda li,
+.vender .franquiciatario li,
+.vender .ventajas li {
+	list-style-image:url(../images/bullet.png);
+	list-style-position:outside;
+}
+.vender .franquiciatario aside {
+	float:left;
+}
+.vender .franquiciatario aside ul,
+.vender .ventajas ul {
+	margin:20px 0 0 40px;
+}
+.vender .franquiciatario figure {
+	float:right;
+	text-align:center;
+}
+.vender .ventajas {
+	margin:30px 0 50px 0;
+}
+.vender .ventajas ul {
+	width:370px;
+	float:left;
+}
+.vender .informes {
+	margin-bottom:100px;
+	text-align:center;
+}
+.vender .informes h3 + p {
+	margin-top:15px;
+	font-size:1.3em;
+}
+.vender .informes figure {
+	margin:20px 0;
+}
+
+
+/* CONTACTO			///////////////////////////////////////////////////*/
+.contacto article {
+	overflow:hidden;
+	margin-bottom:60px;
+}
+.contacto article aside {
+	float:left;
+	margin-left:60px;
+	font-family:'Bellota_Bold', Arial, Helvetica, sans-serif;
+}
+.contacto article aside h2 {
+	margin-bottom:0;
+}
+.contacto article aside h3 {
+	margin-top:20px;
+	font-family:'Sanchez', Arial, Helvetica, sans-serif;
+	font-size:1.28em;
+	color:#e49c25;
+}
+.contacto article aside a,
+footer a {
+	color:#d0b288;
+}
+.contacto article aside a:hover,
+footer a:hover {
+	color:#f7eebc;
+}
+.contacto article form {
+	width:430px;
+	float:right;
+	margin-right:80px;
+}
+.contacto article form label {
+	float:left;
+	margin:20px 0 0 0;
+}
+.contacto article form input,
+.contacto article form textarea {
+	width:295px;
+	height:25px;
+	float:right;
+	margin:15px 15px 0 0;
+	padding:0 5px;
+	font-family:'Sanchez', Arial, Helvetica, sans-serif;
+	font-size:1em;
+	color:#d0b288;
+	border:none;
+	background:url(../images/linea_contacto3.png) bottom no-repeat;
+}
+.contacto article form input.correo {
+	background:url(../images/linea_contacto4.png) bottom no-repeat;
+}
+.contacto article form textarea {
+	width:407px;
+	height:182px;
+	padding:5px 10px;
+	margin-right:0;
+	resize:none;
+	background:url(../images/linea_contacto5.png) no-repeat;
+}
+.contacto article form input.error,
+.contacto article form textarea.error {
+}
+.contacto article form input:focus,
+.contacto article form textarea:focus {
+	outline:none;
+}
+.contacto article form input[type=submit] {
+	width:95px;
+	margin:25px 0 0 0;
+	font-family:'Sanchez', Arial, Helvetica, sans-serif;
+	font-size:1.42em;
+	text-transform:uppercase;
+	color:#28bfad;
+	transition:all ease-out .3s;
+	cursor:pointer;
+	background:none;
+}
+.contacto article form input[type=submit]:hover {
+	color:#e49c25;
+}
+
+
+/* FOOTER			///////////////////////////////////////////////////*/
+footer {
+	width:790px;
+	margin:0 auto;
+	padding:10px 0;
+	text-align:center;
+	border-top:1px dashed #f2ecd3;
+}
+footer a {
+	display:inline-block;
+	margin-left:10px;
+	padding-left:10px;
+	border-left:1px dashed #f2ecd3;
+}
+footer img {
+	margin-right:5px;
+	vertical-align:middle;
+}

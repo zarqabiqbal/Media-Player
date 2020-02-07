@@ -1,0 +1,753 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 
+Cliente: Costanzo
+Cliente URL: http://chocolatescostanzo.com
+Descripción: A más de 80 años endulzando el paladar de cuantos saborean los Chocolates y Dulces Costanzo, su calidad y lema se mantienen igual que antaño.
+Autor: Deparojo
+Autor URL: http://deparojo.com
+*/
+
+
+@media only screen and (max-width:1040px) {
+header {
+	width:1000px;
+}
+header nav {
+	font-size:1em;
+}
+.inicio figure {
+	left:-50%;
+	width:100%;
+	padding-left:20px;
+}
+.inicio .flexslider .slides img {
+	width:96%;
+}
+.inicio .flexslider .flex-control-paging li a {
+	margin:0 6px !important;
+}
+.historia,
+.historia article figure img,
+.productos,
+.populares,
+.populares_detalles,
+.familias,
+.familias_cadauna,
+.familias_detalles,
+.comprar,
+.contacto {
+	width:100%;
+}
+.historia article aside {
+	width:45%;
+}
+.historia article figure {
+	width:50%;
+}
+.historia .slogan figure,
+.historia .slogan figure img {
+	width:auto;
+}
+.productos .flexslider .slides img {
+	width:50%;
+}
+.populares li,
+.familias li,
+.familias_cadauna li {
+	margin-left:31px;
+}
+.familias h1 {
+	height:46px;
+	padding-top:18px;
+	background-size:90% 100%;
+}
+.familias .sello {
+	margin-left:90px;
+}
+}
+
+
+@media only screen and (max-width:960px) {
+header {
+	width:940px;
+}
+}
+
+
+@media only screen and (max-width:920px) {
+header {
+	width:100%;
+}
+header.web {
+	display:none;
+}
+header.movil {
+	display:block;
+	font-size:1.1em;
+}
+header.movil nav {
+	margin-left:0;
+}
+header.movil nav li a {
+	float:none;
+	display:inline-block;
+}
+header nav img {
+	margin:-2px 5px 0 5px;
+	vertical-align:middle;
+}
+header nav h1 a {
+	display:block;
+	color:#28bfad;
+}
+header nav li {
+	float:none;
+	margin:5px 0;
+}
+}
+
+
+@media only screen and (max-width:830px) {
+.vender {
+	width:100%;
+}
+.vender .franquicia {
+	margin-bottom:40px;
+}
+.vender .franquicia figure {
+	width:45%;
+	margin-left:3%;
+}
+.vender .franquicia figure img,
+.vender .franquiciatario figure img {
+	width:100%;
+}
+.vender .franquicia aside {
+	width:45%;
+	margin-top:30px;
+	margin-right:3%;
+}
+.vender .franquicia aside img,
+.vender .franquiciatario img + br + img {
+	width:auto;
+}
+.vender .nuestra ul {
+	width:45%;
+	margin-left:3%;
+}
+.vender .nuestra ul + ul {
+	margin-right:3%;
+}
+.vender .tienda {
+	width:90%;
+}
+.vender .tienda ul {
+	margin-left:4%;
+}
+.vender .franquiciatario aside {
+	width:45%;
+	margin-left:3%;
+}
+.vender .franquiciatario figure {
+	width:45%;
+	margin-right:3%;
+}
+.vender .ventajas {
+	margin-left:3%;
+}
+.vender .ventajas ul {
+	width:42%;
+}
+.vender .informes {
+	margin-bottom:30px;
+}
+}
+
+
+@media only screen and (max-width:768px) {
+.inicio figure img {
+	width:115px;
+}
+.inicio .flexslider {
+	height:420px !important;
+}
+.inicio .flex-direction-nav .flex-prev {
+	left:39% !important;
+}
+.inicio .flex-direction-nav .flex-next {
+	right:39% !important;
+}
+.historia h1,
+.populares h1,
+.populares_detalles h1,
+.familias h1,
+.familias_cadauna h1,
+.comprar h1,
+.vender h1,
+.contacto h1 {
+	background-size:85% 100%;
+}
+.historia .decorado {
+	margin:30px auto;
+}
+.productos .prod_populares,
+.productos .prod_categorias {
+	position:relative;
+	display:inline-block;
+	margin:0 50px 0 60px;
+}
+.productos .flexslider .slides img {
+	width:auto;
+}
+.productos .flex-direction-nav .flex-prev,
+.populares_detalles .flex-direction-nav .flex-prev {
+	left:37% !important;
+}
+.productos .flex-direction-nav .flex-next,
+.populares_detalles .flex-direction-nav .flex-next {
+	right:37% !important;
+}
+.populares .sello,
+.familias .sello {
+	margin:-35px 0 0 10px;
+}
+.populares .sello img,
+.familias .sello img {
+	width:85%;
+}
+.populares p,
+.familias p,
+.familias_cadauna p {
+	width:80%;
+}
+.populares li,
+.familias li,
+.familias_cadauna li {
+	margin-right:10px;
+	margin-left:62px;
+}
+.populares_detalles .info {
+	position:relative;
+	width:90%;
+	margin:0 auto 20px auto;
+}
+.populares_detalles .info img,
+.populares_detalles .info p {
+	width:100%;
+}
+.populares_detalles .flexslider .slides img {
+	display:block !important;
+}
+.familias .antojo,
+.familias .clear {
+	display:none;
+}
+.familias_detalles .producto {
+	width:40%;
+	margin-left:25px;
+}
+.familias_detalles .producto figure,
+.familias_detalles .producto img {
+	width:100%;
+}
+.familias_detalles article {
+	width:50%;
+	margin-right:25px;
+}
+.familias_detalles article .sello {
+	margin:-65px 0 0 270px;
+}
+.familias_detalles article .sello img {
+	width:75%;
+}
+.familias_detalles .linea {
+	margin-top:20px;
+}
+.comprar h1 {
+	height:33px;
+	padding-top:9px;
+	font-size:1.8em;
+}
+.comprar .estados {
+	font-size:1em;
+}
+.comprar .estados p {
+	margin:10px 0;
+}
+.comprar .estados p img {
+	margin-right:0;
+	margin-left:0;
+}
+.comprar .estado .info,
+.comprar .estado .infouno {
+	float:none;
+}
+.comprar .estado .infouno {
+	margin-left:40px;
+}
+.contacto article .gracias {
+	margin-top:25px;
+	text-align:center;
+}
+.contacto article aside,
+.contacto article form {
+	width:430px;
+	float:none;
+	margin:0 auto;
+}
+.contacto article aside {
+	margin-top:28px;
+	text-align:center;
+}
+footer {
+	width:96%;
+}
+}
+
+
+@media only screen and (max-width:568px) {
+.inicio figure {
+	padding-left:10px;
+}
+.inicio figure img {
+	width:85px;
+}
+.inicio .flexslider {
+	height:350px !important;
+}
+.inicio .flex-direction-nav .flex-prev {
+	left:35% !important;
+}
+.inicio .flex-direction-nav .flex-next {
+	right:35% !important;
+}
+.inicio .flexslider .flex-control-nav {
+	margin-top:25px !important;
+}
+.historia h1,
+.populares h1,
+.populares_detalles h1,
+.familias h1,
+.familias_cadauna h1,
+.comprar h1,
+.vender h1,
+.contacto h1 {
+	height:33px;
+	padding-top:9px;
+	font-size:1.8em;
+}
+.historia article aside,
+.historia article figure {
+	width:85%;
+	float:none;
+	margin:0 auto;
+}
+.historia article.reves aside,
+.historia article.reves figure {
+	float:none;
+	margin:0 auto;
+}
+.historia .decorado {
+	margin:0 auto;
+}
+.productos .prod_populares,
+.productos .prod_categorias {
+	float:left;
+	display:block;
+	margin:0 20px;
+	font-size:1.75em;
+}
+.productos .prod_categorias {
+	float:right;
+}
+.productos .prod_populares a,
+.productos .prod_categorias a {
+	width:237px;
+	height:163px;
+	padding-top:25px;
+}
+.productos .prod_categorias a {
+	height:128px;
+	padding-top:60px;
+}
+.productos .flexslider .slides img {
+	width:85%;
+}
+.productos .flex-direction-nav .flex-prev,
+.populares_detalles .flex-direction-nav .flex-prev {
+	left:32% !important;
+}
+.productos .flex-direction-nav .flex-next,
+.populares_detalles .flex-direction-nav .flex-next {
+	right:32% !important;
+}
+.productos .prod_populares a:hover,
+.productos .prod_categorias a:hover {
+	background:url(../images/circulo_productos_movil.png) no-repeat;
+}
+.populares .sello,
+.familias .sello {
+	display:none;
+}
+.populares li,
+.familias li,
+.familias_cadauna li {
+	width:226px;
+	margin:0 10px 50px 30px;
+}
+.populares li img,
+.familias li img,
+.familias_cadauna li img {
+	width:100%;
+}
+.populares_detalles .flexslider .slides img {
+	width:95%;
+}
+.familias h1 img {
+	width:9%;
+}
+.familias_cadauna .familias,
+.familias_detalles .familias {
+	width:80%;
+	margin:0 auto 40px auto;
+	font-size:.9em;
+}
+.familias_detalles {
+	margin:20px auto 50px auto;
+}
+.familias_detalles .producto,
+.familias_detalles article {
+	width:80%;
+	float:none;
+	margin:0 auto;
+}
+.familias_detalles .producto {
+	margin-bottom:35px;
+}
+.familias_detalles article .sello {
+	margin:-55px 0 0 350px;
+}
+.familias_detalles article .sello img {
+	width:65%;
+}
+.familias_detalles article h1 {
+	background-size:100% 100%;
+}
+.familias_detalles .linea {
+	display:none;
+}
+.familias_detalles .familias {
+	margin:40px auto 0 auto;
+}
+.comprar h1 {
+	height:31px;
+	padding-top:11px;
+	font-size:1.4em;
+}
+.comprar .estados {
+	width:90%;
+	margin:0 auto 20px auto;
+	font-size:.9em;
+	line-height:1.25em;
+}
+.comprar .estados p img {
+	margin-right:5px;
+	margin-left:5px;
+}
+.comprar .estado .info,
+.comprar .estado .infouno {
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+}
+.comprar .estado .mapa,
+.comprar .estado .mapauno {
+	display:none;
+}
+footer {
+	width:75%;
+	font-size:.85em;
+}
+footer img {
+	width:12%;
+}
+footer a {
+	margin:5px 0 0 0;
+	padding-left:0;
+	border-left:none;
+}
+}
+
+
+@media only screen and (max-width:480px) {
+.inicio .flexslider {
+	height:310px !important;
+}
+.inicio .flex-direction-nav .flex-prev {
+	left:32% !important;
+}
+.inicio .flex-direction-nav .flex-next {
+	right:32% !important;
+}
+.productos .prod_populares,
+.productos .prod_categorias {
+	margin:0;
+}
+.productos .flex-direction-nav .flex-prev,
+.populares_detalles .flex-direction-nav .flex-prev {
+	left:28% !important;
+}
+.productos .flex-direction-nav .flex-next,
+.populares_detalles .flex-direction-nav .flex-next {
+	right:28% !important;
+}
+.populares h1,
+.populares_detalles h1 {
+	height:32px;
+	padding-top:10px;
+	font-size:1.5em;
+}
+.populares li,
+.familias li,
+.familias_cadauna li {
+	width:182px;
+}
+.familias h1 img {
+	width:5%;
+}
+.familias_cadauna .familias,
+.familias_detalles .familias {
+	font-size:.8em;
+}
+.familias_detalles .producto {
+	margin-bottom:45px;
+}
+.familias_detalles article .sello {
+	margin:-55px 0 0 280px;
+}
+.comprar h1 {
+	height:29px;
+	padding-top:13px;
+	font-size:1.2em;
+}
+.vender .franquicia,
+.vender .franquicia aside {
+	margin-top:20px;
+}
+.vender .franquicia figure,
+.vender .franquicia aside,
+.vender .nuestra ul,
+.vender .nuestra ul + ul,
+.vender .franquiciatario aside,
+.vender .franquiciatario figure,
+.vender .ventajas ul {
+	width:90%;
+	float:none;
+	margin-right:auto;
+	margin-left:auto;
+}
+.vender .franquicia figure,
+.vender .franquiciatario figure {
+	width:60%;
+	margin-top:20px;
+}
+.vender .nuestra ul,
+.vender .nuestra ul + ul {
+	width:65%;
+}
+.vender .tienda {
+	margin:50px auto;
+}
+.vender .tienda p {
+	margin-bottom:15px;
+}
+.vender .tienda ul {
+	width:170px;
+	display:block;
+	margin:0 auto;
+}
+.vender .ventajas {
+	margin-bottom:30px;
+}
+.vender .ventajas ul {
+	width:80%;
+}
+.vender .ventajas ul + ul {
+	margin-top:0;
+}
+}
+
+
+@media only screen and (max-width:320px) {
+.inicio figure img {
+	width:65px;
+}
+.inicio .flexslider {
+	height:230px !important;
+}
+.inicio .flex-direction-nav .flex-prev {
+	left:23% !important;
+}
+.inicio .flex-direction-nav .flex-next {
+	right:23% !important;
+}
+.inicio .flexslider .flex-control-nav {
+	margin-top:25px !important;
+}
+.historia h1,
+.populares h1,
+.populares_detalles h1,
+.familias h1,
+.familias_cadauna h1,
+.familias_detalles article h1,
+.comprar h1,
+.vender h1,
+.contacto h1 {
+	height:49px;
+	padding:6px 20px 0 20px;
+	font-size:1.6em;
+	background:url(../images/cintillo_movil.png) top center no-repeat;
+	background-size:95% 100%;
+}
+.historia article aside h2,
+.populares_detalles article h2,
+.comprar article h2,
+.contacto article aside h2,
+.contacto article form label {
+	line-height:1.15em;
+}
+.historia .decorado {
+	width:70%;
+}
+.historia .decorado img {
+	width:100%;
+}
+.historia .slogan div {
+	width:300px;
+	font-size:.8em;
+}
+.historia .slogan div img {
+	width:15.5%;
+}
+.productos .flexslider .slides img {
+	width:100%;
+}
+.productos .prod_populares,
+.productos .prod_categorias {
+	width:237px;
+	float:none;
+	margin:0 auto;
+}
+.productos .flex-direction-nav .flex-prev,
+.populares_detalles .flex-direction-nav .flex-prev {
+	left:18% !important;
+}
+.productos .flex-direction-nav .flex-next,
+.populares_detalles .flex-direction-nav .flex-next {
+	right:18% !important;
+}
+.populares .decorado img,
+.familias .decorado img,
+.familias_cadauna .decorado img {
+	width:75%;
+}
+.populares li,
+.familias li,
+.familias_cadauna li {
+	width:250px;
+	float:none;
+	margin:0 auto 50px auto;
+}
+.populares li img,
+.familias li img,
+.familias_cadauna li img {
+	width:90%;
+}
+.familias h1 img {
+	display:none;
+}
+.familias_detalles .producto {
+	margin-bottom:15px;
+}
+.familias_cadauna .familias,
+.familias_detalles .familias {
+	font-size:1em;
+}
+.familias_detalles article h1 {
+	height:38px;
+	padding-top:17px;
+	font-size:1.4em;
+	text-align:center;
+}
+.familias_detalles article h1.renglones {
+	height:52px;
+	padding-top:11px;
+}
+.familias_detalles article .sello {
+	display:none;
+}
+.familias_detalles article img {
+	width:98%;
+}
+.familias_cadauna .familias h3 img,
+.familias_detalles .familias h3 img {
+	margin:0;
+}
+.familias_detalles .familias h3 img,
+.familias_detalles .familias p img {
+	width:auto;
+}
+.comprar h1 {
+	height:43px;
+	padding:12px 40px 0 40px;
+	font-size:1.18em;
+}
+.vender h1,
+.contacto h1 {
+	height:38px;
+	padding-top:17px;
+}
+.vender article h2 img {
+	display:none;
+}
+.vender .nuestra ul,
+.vender .nuestra ul + ul {
+	width:85%;
+}
+.contacto article aside {
+	width:290px;
+}
+.contacto article aside figure {
+	display:none;
+}
+.contacto article form {
+	width:270px;
+	overflow:hidden;
+}
+.contacto article form label,
+.contacto article form input,
+.contacto article form textarea {
+	width:270px;
+	float:none;
+}
+.contacto article form label {
+	display:inline-block;
+}
+.contacto article form input,
+.contacto article form textarea {
+	margin:0 0 10px 0;
+}
+.contacto article form textarea {
+	background:url(../images/linea_contacto6.png) no-repeat;
+}
+.contacto article form input[type=submit] {
+	width:100%;
+	margin:0 auto;
+}
+footer {
+	width:95%;
+	font-size:.7em;
+}
+}

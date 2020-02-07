@@ -1,0 +1,46 @@
+margin: 0;
+	padding: 0;
+	border: 0;
+@font-face {
+    font-family:'Amatic_SC';
+    src:url('../fonts/amaticsc-regular.eot');
+    src:url('../fonts/amaticsc-regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/amaticsc-regular.woff') format('woff'),
+        url('../fonts/amaticsc-regular.ttf') format('truetype'),
+        url('../fonts/amaticsc-regular.svg#Amatic_SC') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Bellota_Bold';
+    src:url('../fonts/bellota-bold.eot');
+    src:url('../fonts/bellota-bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/bellota-bold.woff') format('woff'),
+        url('../fonts/bellota-bold.ttf') format('truetype'),
+        url('../fonts/bellota-bold.svg#Bellota_Bold') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Gloucester';
+    src:url('../fonts/gloucester.eot');
+    src:url('../fonts/gloucester.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/gloucester.woff') format('woff'),
+        url('../fonts/gloucester.ttf') format('truetype'),
+        url('../fonts/gloucester.svg#Gloucester') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Sanchez';
+    src:url('../fonts/sanchez-regular.eot');
+    src:url('../fonts/sanchez-regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sanchez-regular.woff') format('woff'),
+        url('../fonts/sanchez-regular.ttf') format('truetype'),
+        url('../fonts/sanchez-regular.svg#Sanchez') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
